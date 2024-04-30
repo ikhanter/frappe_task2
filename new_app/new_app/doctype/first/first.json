@@ -1,0 +1,106 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-30 10:20:51.131276",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "test1",
+  "column_break_jsny",
+  "test2"
+ ],
+ "fields": [
+  {
+   "fieldname": "test1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "test1",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_jsny",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "test2",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "test2",
+   "permlevel": 1,
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-30 10:45:48.840251",
+ "modified_by": "Administrator",
+ "module": "New App",
+ "name": "first",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "First Role",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "permlevel": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "First Role",
+   "share": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "if_owner": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Second Role",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "if_owner": 1,
+   "permlevel": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Second Role",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
